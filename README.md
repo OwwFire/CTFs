@@ -1,2 +1,2 @@
 # 🏴ALL CTFS LINKS🏴  
-[CTF-1](https://ctflearn.com/challenge/449)🚩
+🚩[CTF-1: Python Reversal](https://ctflearn.com/challenge/449)
