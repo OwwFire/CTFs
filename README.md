@@ -1,7 +1,7 @@
-# 🏴ALL CTFS LINKS🏴  
+# 🏴 ALL CTFS LINKS 🏴  
 🚩[CTF-1: Python Reversal](https://ctflearn.com/challenge/449)
 
-# 🎯 CTFS CATEGORIES / AMOUNT 🎯
+# 🎯 CTFS CATEGORIES 🎯
 
 | Category    | Challenges Completed |
 |-------------|----------------------|
