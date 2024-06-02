@@ -1,36 +1,49 @@
 # 🎯 ALL CTFS LINKS 🎯  
-🚩 [CTF-1: Python Reversal](https://ctflearn.com/challenge/449)
+🚩 [CTF-1: Python Reversal](https://ctflearn.com/challenge/449)  
+🚩 [CTF-2: Git is Good](https://ctflearn.com/challenge/104)
 
 ---
 
 # 🏁 CTFS CATEGORIES 🏁
 
-| Category      | Challenges Completed |
-|---------------|----------------------|
-| 🐍 Python     | 1                    |
-| 🌐 JavaScript | 0                    |
-| 🐧 Linux      | 0                    |
+| Category      | Easy | Medium | Hard |
+|---------------|------|--------|------|
+| 🐍 Python     | 1    | 0      | 0    |
+| 🌐 JavaScript | 0    | 0      | 0    |
+| 🐧 Linux      | 0    | 0      | 0    |
+| 🛠️ Git        | 1    | 0      | 0    |
 
 ---
 
 ## Details
 
 ### Python
-- **Completed**: 1
-  - 🚩 [CTF-1: Python Reversal](https://ctflearn.com/challenge/449)
-- **Pending**: 0
+- **Easy**: 0
+- **Medium**: 0
+- **Hard**: 1
+    - 🚩 [CTF-1: Python Reversal](https://ctflearn.com/challenge/449)
 
 ---
 
 ### JavaScript
-- **Completed**: 0
-- **Pending**: 0
+- **Easy**: 0
+- **Medium**: 0
+- **Hard**: 0
 
 ---
 
 ### Linux
-- **Completed**: 0
-- **Pending**: 0
+- **Easy**: 0
+- **Medium**: 0
+- **Hard**: 0
+
+---
+
+### Git
+- **Easy**: 1
+  - 🚩 [CTF-2: Git is Good](https://ctflearn.com/challenge/104)
+- **Medium**: 0
+- **Hard**: 0
 
 ---
 
@@ -38,3 +51,4 @@
 - **Python**: None
 - **JavaScript**: None
 - **Linux**: None
+- **Git**: None
