@@ -1,0 +1,6 @@
+After downloading a zip file u must find the flag.
+When you enter the file a .git and flag.txt are found.
+Once clicking on the flag only one 2 words appear: flag{redacted}.
+In order to retrive the flag, I eneterd the git cli.
+Inside the git cli, i entered 'git log' and noticed a log history of a few commits.
+I repeatetly entered 'git revert head' until the txt file shocased the correct flag.
