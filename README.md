@@ -8,7 +8,7 @@
 
 | Category      | Easy | Medium | Hard |
 |---------------|------|--------|------|
-| 🐍 Python     | 1    | 0      | 0    |
+| 🐍 Python     | 0    | 0      | 1    |
 | 🌐 JavaScript | 0    | 0      | 0    |
 | 🐧 Linux      | 0    | 0      | 0    |
 | 🛠️ Git        | 1    | 0      | 0    |
