@@ -1,21 +1,21 @@
 # Solution for each level:
 
--Level 1:
+-Level 0:
 ls shows a file named readme, after reading it a password can be recoverd.
 
--Level 2:
+-Level 1:
 The challenge is to open a file with '-' as its name (- is used for arguemnts, so it doesn't work in default syntax), i used the following command: cat ./-.
 
--Level 3:
+-Level 2:
 The challenge is to open a file with spaces in its name (doesn't work in default syntax), i used the following command: cat 'spaces in this filename'.
 
--Level 4:
+-Level 3:
 The challenge is to open a hidden file, i used the following command to see the file: ls -a.
 
--Level 5:
+-Level 4:
 The challenge is to find which file contains readable text, after executing ./-file0x for files 1-7 i found the password in file 7.
 
--Level 6:
+-Level 5:
 The challenge is to find a file following a specific standard: find -L . -size 1033c ! -executable -exec cat "{}" \;
 -L to go through each directory.
 -size 1033c to find a file in the exact 1033 bytes size.
@@ -23,7 +23,7 @@ The challenge is to find a file following a specific standard: find -L . -size 1
 -exec cat "{}" \; to automaticlly read the file.
 
 
--Level 7:
+-Level 6:
 The challenge is to find a file following a specific standard: find -L / -size 33c -user bandit7 -group bandit6  -exec cat "{}" \; -print 2>/dev/null
 -L to go through each directory.
 / becauze I do not know which directory the file is located in.
@@ -31,5 +31,27 @@ The challenge is to find a file following a specific standard: find -L / -size 3
 -user bandit7 -group bandit6 to filter baed on user and group ownership.
 -exec cat "{}" \; to automaticlly read the file.
 -print 2>/dev/null to redirect all 'premission denied' errors to null and only see file reads results.
+
+-Level 7:
+I searched through the file looking for the keyword, using the following command: cat data.txt | grep millionth
+#Solution: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+-Level 8:
+In order to find the uniuqe line I used the following commnad: sort data.txt | uniq -u
+*I had to sort the file before using uniq becauze uniq only look dor duplicates between nearby words.
+#Solution: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+-Level 9:
+In order to find a sentence that starts with several '=', i used the following commasnd: cat data.txt | grep -a '\b=='
+*Only 2 results appeared so i took the readable result.
+#Solution: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+-Level 10:
+In order to decode the base64 text I used the following command: base64 --decode data.txt 
+#Solution: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+-Level 11:
+In order to find the password i used the following command to reverse the rotation: cat data.txt | tr 'n-za-mN-ZA-M' 'a-zA-Z'
+#Solution: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
 #Source: https://overthewire.org/wargames/bandit/bandit4.html
